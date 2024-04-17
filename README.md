@@ -11,6 +11,14 @@
 - その際に、ユーザーの属性ごとにDMの種類を最適化し、効果量を最適化する
 
 # URI
+https://dm-promotion-opt-api-na6rrnkbw7jejfhqugoyjf.streamlit.app/
+
+## 使い方
+1. サンプルdata/csvと同様のカラム構成で、ブラウザ上へアップロード
+2. 最適化を実行を押下
+3. 最適化結果をダウンロード
+
+
 
 # ディレクトリ
 
