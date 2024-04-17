@@ -1,0 +1,30 @@
+[project]
+name = "dm-promotion-opt-api"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "ruuu-shan", email = "sarasvati.rigveda.1028@gmail.com" }
+]
+dependencies = [
+    "uvicorn>=0.29.0",
+    "pandas>=2.2.2",
+    "fastapi>=0.110.1",
+    "streamlit>=1.33.0",
+    "pulp>=2.8.0",
+]
+readme = "README.md"
+requires-python = ">= 3.8"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = []
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/dm_promotion_opt_api"]
